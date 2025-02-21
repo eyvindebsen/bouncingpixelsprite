@@ -4,3 +4,4 @@
 4 pOl,o:l=835+fna(36)*3+x/8:o=pE(l):pOl,oor2^(7-xaN7):t=t+1:gO3
 !- Sprite bouncer v7 - 272 bytes.
 !- This is the combined optimizations for Robin (8-bit show and tell) and my entry.
+!- This will only work on PAL machines.
