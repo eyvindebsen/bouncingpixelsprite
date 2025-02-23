@@ -21,3 +21,5 @@
 89 ifbx>255thenpokev+16,1:pokev,bx-255:goto92:rem x>255
 90 pokev+16,0:pokev,bx
 92 pokev+1,by:goto40
+!-
+!- start with RUN 5
