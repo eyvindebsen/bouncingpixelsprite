@@ -13,7 +13,7 @@
 !-   peek from 1024, or why not 4^5(1024), saves 1 more byte.
 !- 
 !- Robin pointed out that you can skip the last "
-!- in the print, line 1, saving 1 more byte¨-- works fine.
+!- in the print, line 1, saving 1 more byte - works fine.
 !-
 !- PAL & NTSC safe :)
 !-
