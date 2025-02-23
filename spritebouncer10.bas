@@ -8,13 +8,22 @@
 !- https://www.youtube.com/@8_Bit
 !- https://www.youtube.com/watch?v=zwTA7xi0QD0
 !-
-!- v10 Improvements: 
+!- v10 Improvements:
 !-  Instead of doing the mod function during the sprite creation,
 !-  why not keep printing the sequence ahead and just peek.
-!-  Will print too many sequences, but who cares, since its hidden :)
-!-  saves 3 bytes.
-!-   
-!- v9 Improvements (was 268 bytes)
+!-  Will print too many sequences, but who cares, its hidden! :)
+!-
+!-  This will get rid of the "pE(4^5+x-int(x/3)*3)" (mod function), in line 2
+!-  and replace it with "pE(1064+x)"
+!- 
+!-  Where did the peek(4^5+ go? Since i had to keep the print in line 1 without an
+!-  ending quote, the line shifts down, so have to peek at 1064, wasting a byte.
+!-  So if i wanted to keep the 4^5 thing, that would cost 2 bytes in line 1,
+!-  while im only saving 1 byte in line 2.
+!-  All in all, 3 bytes saved.
+!-  
+!-  
+!- v9 Improvements: (was 268 bytes)
 !-   print the data (128,0,1) on screen; cost less than a poke
 !-   peek from 1024, or why not 4^5(1024), saves 1 more byte.
 !- 
