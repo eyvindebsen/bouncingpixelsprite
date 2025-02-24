@@ -4,7 +4,7 @@
 4 pOl,o:l=835+fna(36)*3+x/8:o=pE(l):pOl,oor2^(7-xaN7):t=t+1:gO3
 !-
 !- Version 10 - 265 bytes. 
-!- This is the combined improvements from Robin (8-bit show and tell) and me.
+!- This is the combined improvements from Robin (8-bit show and tell) and Eyvind Ebsen.
 !- https://www.youtube.com/@8_Bit
 !- https://www.youtube.com/watch?v=zwTA7xi0QD0
 !-
