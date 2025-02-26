@@ -52,7 +52,18 @@
 !- 
 !-  Huge Thanks to Peter Tirsek for getting us into the 1-block era ;)
 !-
-!-
+!-  One more thing. 
+!-  Robin and I somehow agreed on measuring the program size this way:
+!-  (load program)
+!-  CLR:?-26627-FRE(0)
+!- 
+!- This will print the size of the program in memory.
+!- On disk the program will contain an additional 2 bytes for load address, 
+!- and 2 trailing zeroes, indicating the end of program. 
+!- This adds 4 bytes to the filesize.
+!- So the program on disk is +4 bytes. These bytes we do not count.
+!- 
+!- 
 !- v10 Improvements: 265 bytes
 !-
 !-  Instead of doing the mod function during the sprite creation,
