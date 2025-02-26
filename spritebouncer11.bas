@@ -26,8 +26,10 @@
 !-  Now we are down to 248 bytes! :)
 !-  ({191} can be typed on the original hardware using CBM-B)
 !- 
-!-  One little improvement here is to go 3 left with the cursor,
-!-  after the printing, so you dont need to print after the loop:
+!-  One little improvement here is to print the ending 3*255
+!-  and then go 3 left with the cursor, this will overwrite the 3*255
+!-  every loop, but will leave them at the end, after the printing.
+!-  So you dont need to print after the loop:
 !-
 !-  fOx=0to18:?"@{reverse off}@a{reverse on}{191}{191}{191}{left*3}";:nE
 !- 
