@@ -42,7 +42,7 @@
 !- 
 !-  This would save the same byte as adding the 3cursor lefts trick.
 !- 
-!-  Another optimization Robin came up was to remove the "Z=255",
+!-  Another optimization Robin came up with, was to remove the "Z=255",
 !-  and just use the typed constant, this saves 1 more byte.
 !-  Weird? ":z=255" will take 6 bytes, we now have to poke the full2040,16
 !-  costing 1 byte. But instead of using Z, we use 255, spending 2 more bytes
