@@ -34,7 +34,7 @@
 !-  This saves 1 more byte. 247 bytes now.
 !-
 !-  Robin suggested the end quote trick (remove end quote), in the end of line 2:
-!-  Move the print to the end of the line, and skip then end quote (")
+!-  Move the print to the end of the line, and skip the end quote (")
 !-
 !-  ?"{191}{191}{191}
 !- 
