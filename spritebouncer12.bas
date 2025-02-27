@@ -3,7 +3,14 @@
 3 x=fna(544)+24:pOv-5,x/256:pOv-21,xaN255:pOv-20,fna(316)+50:x=fna(42)+1
 4 pOl,o:l=1027+fna(36)*3+x/8:o=pE(l):pOl,oor2^(7-xaN7):nE
 !-
-!- Version 12 - 239 bytes.
+!- Version 12 - 239 bytes. Now with dramatic intro effects! :D
+!-
+!- This is the combined improvements from Robin Harbron (8-bit show and tell),
+!- Peter Tirsek & Eyvind Ebsen.
+!- https://www.youtube.com/@8_Bit
+!- https://www.youtube.com/watch?v=zwTA7xi0QD0
+!-
+!- Version 12 improvements:
 !-
 !- Peter Tirsik came up with a reduction of the statement in line 3.
 !-
@@ -17,17 +24,12 @@
 !- Which is techinally a free bonus benefit of the initialization
 !- to add a cool dramatic intro effect? ;)
 !- 
-!- In the end its the same result.
+!- In the end its the same result, saving 4 bytes.
 !- Hope its not considered a cheat?
 !- 
 !- Cleaned up the pokes and put them in order.
 !- 
 !-
-!- Version 11 - 246 bytes. 
-!- This is the combined improvements from Robin Harbron (8-bit show and tell),
-!- Peter Tirsek & Eyvind Ebsen.
-!- https://www.youtube.com/@8_Bit
-!- https://www.youtube.com/watch?v=zwTA7xi0QD0
 !-
 !- v11 improvements:
 !- 
