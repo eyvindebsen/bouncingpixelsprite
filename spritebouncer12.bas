@@ -31,7 +31,7 @@
 !- 
 !-
 !-
-!- v11 improvements:
+!- v11 improvements: 246 bytes.
 !- 
 !-  We have entered the 1 block-size program now! :D
 !- 
