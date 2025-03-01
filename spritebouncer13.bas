@@ -17,7 +17,9 @@
 !-  need to poke the adresses v+0, v+2, v+8 with 1
 !-  So this little weirdo will replace it
 !-  pOv-(t<5)*t*2,1
-!-  It will poke a few more than needed, but will not harm anything.
+!-  It will poke a few more than needed, but will not harm anything?
+!-  It kinda does. It sets the sprite behind the text, so looks weird
+!-  when the sprite gets to the top. Another dramatic effect? ;)
 !-
 !-  Now you see the expansion going on while the sprite is being drawn.
 !-  Looks a bit more dramatic to me :D
