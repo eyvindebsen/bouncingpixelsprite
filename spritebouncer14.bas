@@ -12,7 +12,7 @@
 !-
 !-  Version 14 improvements:
 !-
-!-  This is a fix of the whe weirdo equation
+!-  This is a fix of the weirdo equation
 !-  pOv-(t<5)*t*2,1 
 !-  was not weird enough
 !-  v gets the value of 0,2,4,6,8.
