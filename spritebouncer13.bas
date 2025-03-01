@@ -1,5 +1,5 @@
 1 dEfna(b)=aB(t-int(t/b)*b-b/2):v=53269:?"{clear}{blue}{reverse on}{191}{191}{191}";
-2 pOv+18,14:pO2040,16:fOt=.tov:ift<19then?"@{reverse off}@a{reverse on}{191}{191}{191}{left*3}";:pOv-(t<5)*t*2,1
+2 pOv+18,14:pO2040,16:fOt=.tov:ift<19tH?"@{reverse off}@a{reverse on}{191}{191}{191}{left*3}";:pOv-(t<5)*t*2,1
 3 x=fna(544)+24:pOv-5,x/256:pOv-21,xaN255:pOv-20,fna(316)+50:x=fna(42)+1
 4 pOl,o:l=1027+fna(36)*3+x/8:o=pE(l):pOl,oor2^(7-xaN7):nE
 !-
