@@ -1,5 +1,5 @@
 0 rem sprite bouncer in sprite
-1 y=abs(t-int(t/38)*38-19):x=abs(t-int(t/42)*42-21)
+1 goto5:y=abs(t-int(t/38)*38-19):x=abs(t-int(t/42)*42-21)
 4 print x,y:t=t+1:goto1
 5 print"{clear}":v=128:forx=.to7:b(x)=v:v=v/2:next:v=53248
 10 pokev+21,1:pokev+39,14:poke2040,13:rem enable sprite 1
