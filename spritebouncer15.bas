@@ -38,7 +38,7 @@
 !-   Bit #3: Screen width; 0 = 38 columns; 1 = 40 columns.
 !-
 !-  This will set screen to 38 colums, so the bounce would not be correct.
-!-  but that is just a matter of adjusting the X-offset, costing noting.
+!-  but that is just a matter of adjusting the X-offset, costing nothing.
 !-
 !-  But poke with 9 (1-digit), (%00001001) will keep the screen to 40
 !-  columns, scrolling the screen 1 bit, which is invisible.
