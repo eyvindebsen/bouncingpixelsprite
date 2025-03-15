@@ -202,6 +202,7 @@ boundbot  byte $32,$01,$01
 ;  The sprite creation routine leaves a #1 in the accumulator,
 ;  so there is no need to LDA #1 after sprite creation.
 ;  2 bytes saved.
+;  221 bytes.
 ;
 ; Version 10 *experiment
 ; 
