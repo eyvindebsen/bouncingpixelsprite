@@ -1,5 +1,5 @@
 ;comments below of code
-;everything is in ZP, almost
+;everything is in ZP, mostly
 ;variable adresses
 
 xloclo=$1b            ;spritex lo-location
